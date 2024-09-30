@@ -14,3 +14,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.HabbitList{
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+}

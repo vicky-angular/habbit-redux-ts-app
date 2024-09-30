@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { addHabit } from '../store/habbit-slice';
+import HabbitList from './HabbitList';
 
 const AddHabitFrom:React.FC = () => {
     const [name, setName] = useState<string>("");
@@ -37,6 +38,7 @@ const AddHabitFrom:React.FC = () => {
         </div>
         <input type="submit" />
         </form>
+        <HabbitList />
     </div>
   )
 }
