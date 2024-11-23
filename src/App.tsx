@@ -3,6 +3,7 @@ import './App.css';
 import { Provider } from 'react-redux';
 import store from './store/store';
 import AddHabitFrom from './components/add-habit-form';
+import TypeScriptCode from './components/TypeScriptCode';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <div><b>HABIT TRAKER</b></div>
     </div>
     <AddHabitFrom />
+    <TypeScriptCode />
     </Provider>
   );
 }
